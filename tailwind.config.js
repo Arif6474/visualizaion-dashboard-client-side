@@ -4,25 +4,14 @@ module.exports = {
     themes: [
       {
         mytheme: {
-          primary: "#f4e14e",
-
-          secondary: "#1d6cc6",
-
-          accent: "#62f23a",
-
-          neutral: "#1C141F",
-
-          "base-100": "#262244",
-
-          info: "#648FDD",
-
-          success: "#2CC38F",
-
-          warning: "#F4A443",
-
-          error: "#F2407B",
+          primary: "#029944",
+          secondary: "#749503",
+          accent: "#F9FAFA",
+          neutral: "#3D474D",
         },
       },
+      "light",
+      "cupcake",
     ],
   },
   plugins: [require("daisyui")],
