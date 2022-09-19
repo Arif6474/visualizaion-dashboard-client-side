@@ -14,6 +14,7 @@ import useData from "../../hooks/useData";
 import Likelihood from "./Likelihood";
 import RadarChart from "./RadarChart";
 import Topic from "./Topic";
+import VisualizationTable from "./VisualizationTable";
 ChartJS.register(
   CategoryScale,
   LinearScale,
@@ -90,6 +91,9 @@ const Sector = () => {
       <div className="basis-2/5 p-8">
         <RadarChart />
       </div>
+      </div>
+      <div>
+        <VisualizationTable/>
       </div>
     </div>
   );
