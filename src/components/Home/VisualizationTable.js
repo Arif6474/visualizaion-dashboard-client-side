@@ -10,7 +10,7 @@ const VisualizationTable = () => {
   const [modalData, setModalData] = useState({});
   const getVisualizationData = async () => {
     try {
-      const results = await axios.get("http://localhost:5000/data");
+      const results = await axios.get("https://visualization-dashboard-server-side-9jnm1cux1-arif6474.vercel.app/data");
       setVisualizationData(results.data);
       setFilteredData(results.data);
     } catch (error) {

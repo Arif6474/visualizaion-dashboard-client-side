@@ -4,7 +4,7 @@ const useData = () => {
     const [data, setData] = useState([])
 
     useEffect(() => {
-        fetch('http://localhost:5000/data')
+        fetch('https://visualization-dashboard-server-side-9jnm1cux1-arif6474.vercel.app/data')
         .then(res => res.json())
         .then(data => setData(data))
     }, [])
